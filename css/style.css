@@ -104,3 +104,32 @@ img {
 .hero-figure img {
     object-fit: cover;
 }
+
+.information {
+    display: flex;
+    flex-flow: column;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.panels {
+    display: flex;
+}
+
+.panel {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+}
+
+.panel img {
+    object-fit: cover;
+    width: 250px;
+    height: 200px;
+}
