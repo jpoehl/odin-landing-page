@@ -1,18 +1,38 @@
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    font-size: 18px;
+}
+
+.top_row {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 10px;
+}
+
 .logo img {
     object-fit: scale-down;
     width: 50px;
     height: 100%;
 }
 
-ul {
+.header-links ul {
     list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-.header, .footer {
-    background-color: #1F2937;
-    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
 }
