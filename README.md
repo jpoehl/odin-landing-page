@@ -1,2 +1,3 @@
-# odin-landing-page
-Landing page design as part of the Odin Project
+# Landing page
+
+This project is about designing a landing page, as part of the Odin Project's *Foundations* course.
