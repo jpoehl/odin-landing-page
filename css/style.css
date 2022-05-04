@@ -22,6 +22,14 @@ img {
     font-size: 18px;
 }
 
+.footer {
+    color: #E5E7EB;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .top_row {
     display: flex;
     align-items: center;
