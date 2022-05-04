@@ -135,5 +135,18 @@ img {
 }
 
 .quote {
-    
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote figcaption {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: right;
 }
