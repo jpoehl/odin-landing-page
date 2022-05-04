@@ -4,6 +4,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 a {
@@ -26,8 +29,16 @@ img {
     color: #E5E7EB;
     flex-shrink: 0;
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    padding: 0px 100px 25px 100px;
 }
 
 .top_row {
@@ -96,7 +107,7 @@ img {
     text-align: center;
     text-decoration: none;
     width: 75px;
-    height: auto;
+    height: 20px;
     display: inline-block;
 }
 
@@ -157,7 +168,7 @@ img {
     font-weight: 300;
     color: #1F2937;
     display: flex;
-    flex: 1;
+    flex: 2;
     justify-content: center;
     align-items: center;
 }
@@ -171,10 +182,12 @@ img {
 .action {
     background-color: #3882F6;
     color: #E5E7EB;
+    margin: 36px 100px;
+    padding: 18px;
     border: none;
     border-radius: 8px;
     display: flex;
-    max-width: 800px;
+    flex: 1;
     justify-content: center;
     align-items: center;
     gap: 80px;
