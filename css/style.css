@@ -79,11 +79,9 @@ img {
     margin: 0;
 }
 
-.hero-button {
+.button {
     border: none;
     border-radius: 8px;
-    color: #E5E7EB;
-    background-color: #3882F6;
     font-weight: 700;
     font-size: 18px;
     padding: 9px 18px;
@@ -92,6 +90,11 @@ img {
     width: 75px;
     height: auto;
     display: inline-block;
+}
+
+.hero-button {
+    color: #E5E7EB;
+    background-color: #3882F6;
 }
 
 .hero-figure {
